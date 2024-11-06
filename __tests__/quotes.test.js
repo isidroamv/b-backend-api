@@ -2,7 +2,7 @@ jest.mock('axios');
 const request = require('supertest');
 const express = require('express');
 const axios = require('axios');
-const quotesRouter = require('../routes/quotes');
+const quotesRouter = require('../src/routes/quotes');
 
 // Mock the axios module
 jest.mock('axios');
